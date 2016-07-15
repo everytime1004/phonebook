@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.MainActivity">
+
+    <TextView
+        android:id="@+id/contact_count_textview"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="right"
+        android:paddingRight="5dp" />
+
+    <ListView
+        android:id="@+id/contact_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
